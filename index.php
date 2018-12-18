@@ -12,7 +12,7 @@
   </head>
   <body>
 		<!-- HEADER -->
-		<header class="navbar navbar-expand-lg navbar-light bg-light flex-column flex-md-row bd-navbar">
+		<header class="navbar navbar-expand-lg navbar-dark flex-column flex-md-row bd-navbar">
 			<a class="navbar-brand mr-0 mr-md-2">Company Name</a>
 			<ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
 				<li class="nav-item">
@@ -36,13 +36,81 @@
 			</ul>
 		</header>
 		<!-- HERO SECTION -->
-		<section class="jumbotron jumbotron-fluid">
+    <section>
+      <div class="container">
+        <div class="row">
+          <h1 class="display-3">Solving problems with a Human Centred Design approach</h1>
+        </div>
+      </div>
+    </section>
+    <section class="medium-articles">
+      <div class="container">
+        <div class="row">
+          <h2>Latest publications</h2>
+          <div class="card-columns">
+            <div class="card">
+              <img class="card-img-top" src="https://miro.medium.com/fit/c/600/420/1*fS1OZ9zN_Q4UXWNYVlUuDA.jpeg">
+              <div class="card-body">
+                <h4>Why we need to stop over-complicating UX</h4>
+                <p class="card-text"><small class="text-muted">Oct 2018 ⋅ 6 min read</small></p>
+                <p class="card-text">Many have become so focused on the process and methodologies that they’ve forgotten the fundamentals of why we started focusing on the user and what we hope to achieve with that focus.</p>
+                <button type="button" class="btn btn-primary" onclick="window.location.href='https://uxdesign.cc/why-we-need-to-stop-over-complicating-ux-df30dd80b36d'">Make UX simple</button>
+              </div>
+            </div>
+            <div class="card p3">
+              <div class="card-body">
+                <h4>What has being part of the #WhatIsResearchOps community meant for me?</h4>
+                <p class="card-text"><small class="text-muted">Oct 2018 ⋅ 6 min read</small></p>
+                <p class="card-text">Incredible discussions ensued, and a lot of the doubt was around how ResearchOps should be defined. I believe many of us working in fields that include research, design and ideation have suffered a bit because of lack of definition.</p>
+                <button type="button" class="btn btn-primary" onclick="window.location.href='https://medium.com/researchops-community/what-has-being-part-of-the-whatisresearchops-community-meant-for-me-b3daf6873365'">WhatIsResearchOps?</button>
+              </div>
+            </div>
+            <div class="card p3">
+              <img class="card-img-top" src="https://miro.medium.com/fit/c/600/420/1*cdCQ4GuTglEY66ggk2Bwug.jpeg">
+              <div class="card-body">
+                <h4>Moving past the battle for having the greatest job title ever</h4>
+                <p class="card-text"><small class="text-muted">Sep 2018 ⋅ 8 min read</small></p>
+                <p class="card-text">That’s right, like most of you out there, I have been on a constant quest to have the most incredible job title ever, ever since I decided I wanted to be a Designer over 25 years ago.</p>
+                <button type="button" class="btn btn-primary" onclick="window.location.href='https://uxdesign.cc/moving-past-the-battle-for-the-greatest-job-title-ever-58a91eb60cde'">Stop chasing job titles</button>
+              </div>
+            </div>
+            <div class="card p3">
+              <img class="card-img-top" src="https://miro.medium.com/fit/c/600/420/1*W4R8KMJR3IQR8cp5ubGQAw.png">
+              <div class="card-body">
+                <h4>UX In The Age Of AI</h4>
+                <p class="card-text"><small class="text-muted">Jan 2018 ⋅ 7 min read</small></p>
+                <p class="card-text">This article will explore the relationship I believe will develop between AI and UX in the coming years to create better and more valuable solutions.</p>
+                <button type="button" class="btn btn-primary" onclick="window.location.href='https://medium.com/bythewayhi/ux-in-the-age-of-ai-d90cf801f943'">Augmenting UX</button>
+              </div>
+            </div>
+            <div class="card p3">
+              <div class="card-body">
+                <h4>A special thank you for making teaching so rewarding</h4>
+                <p class="card-text"><small class="text-muted">Dec 2017 ⋅ 8 min read</small></p>
+                <button type="button" class="btn btn-primary" onclick="window.location.href='https://medium.com/@hugofroesUX/a-special-thank-you-for-making-teaching-so-rewarding-3a07958845d4'">Thank you</button>
+              </div>
+            </div>
+            <div class="card p3">
+              <img class="card-img-top" src="https://miro.medium.com/fit/c/600/420/1*oF7oTrlGXNdRFthk-a1sFQ.png">
+              <div class="card-body">
+                <h4>Designing For The User: Part 1 - Debunking The Myths</h4>
+                <p class="card-text"><small class="text-muted">Jul 2017 ⋅ 8 min read</small></p>
+                <p class="card-text">I’ve often found myself having to convince clients or colleagues about the importance of designing for the end user. It can be frustrating.</p>
+                <button type="button" class="btn btn-primary"onclick="window.location.href='https://medium.com/bythewayhi/designing-for-the-user-part1-debunking-the-myths-3031202a62b3'">Design for the user</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+	<!--	<section class="jumbotron jumbotron-fluid">
 			<div class="container">
 				<div class="row">
-					<h1 class="col-sm display-3">Solving problems with a Human Centred Design approach</h1>
 					<div class="image-placeholder col-sm">
 			    	<p>Really cool hero image here</p>
 					</div>
+          <h1 class="col-sm display-3">Solving problems with a Human Centred Design approach</h1>
 				</div>
 			</div>
 		</section>
@@ -58,10 +126,10 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section>-->
 
 		<!-- ARTICLES -->
-		<section class=" py-5">
+		<!--<section class=" py-5">
 			<div class="container">
 				<div class="row">
 						<h2>Articles on Medium</h2>
@@ -99,40 +167,17 @@
 					</article>
 				</div>
 			</div>
-		</section>
+		</section>-->
 
-		<!-- Testimonials -->
-		<section>
-			<div class="container">
-				<div class="row">
-					<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-					  <li class="nav-item">
-					    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
-					  </li>
-					</ul>
-					<div class="tab-content" id="pills-tabContent">
-					  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
-					  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-					  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
-					</div>
-				</div>
-			</div>
-		</section>
 		<!-- FOOTER -->
 
-		<footer class="bg-dark">
+		<!--<footer class="bg-dark">
 			<div class="container pt-3">
 				<div class="row">
 					<p class="col-sm text-white bg-dark text-center">© Copyright 2018 - Hugo Froes</p>
 				</div>
 			</div>
-		</footer>
+		</footer>-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

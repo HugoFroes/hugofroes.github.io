@@ -1,0 +1,22 @@
+/* GENERAL -----------*/
+header {
+  background-color: #c0392b;
+}
+section{
+  margin: 2em 0;
+  padding: 4em 0;
+}
+
+
+.jumbotron {
+  background-color: #333;
+  color: #fff;
+  background-image: url('/images/hero_background_dt.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* HOMEPAGE -----------*/
+
+/*.medium-articles {
+  background-color: #DDD;
+}*/
