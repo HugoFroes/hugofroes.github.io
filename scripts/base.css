@@ -1,22 +1,64 @@
 /* GENERAL -----------*/
-header {
-  background-color: #c0392b;
+* {
+  font-family: 'Open Sans', sans-serif;
 }
-section{
-  margin: 2em 0;
-  padding: 4em 0;
+h1, h2, h3, h4, .agenda-date span {
+  font-family: 'Montserrat', sans-serif;
 }
-
-
+h1 span {
+  border-bottom: solid 4px #fcf113;
+}
+h2 {
+  font-size: 1em;
+  color: #000;
+  background-color: #fcf113;
+  padding: 1em 0;
+  margin-bottom: 2.5em;
+  letter-spacing: 0.2em;
+}
 .jumbotron {
-  background-color: #333;
-  color: #fff;
-  background-image: url('/images/hero_background_dt.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding: 7em 0;
 }
-/* HOMEPAGE -----------*/
+section {
+  padding: 2em 0;
+}
+article {
+  padding-bottom: 2.5em;
+  margin-bottom: 2.5em;
+  border-bottom: solid 4px #000;
+}
+.gutter-10.row {
+margin-right: -25px;
+margin-left: -25px;
+}
+.gutter-10 > [class^="col-"], .gutter-10 > [class^=" col-"] {
+padding-right: 25px;
+padding-left: 25px;
+}
 
-/*.medium-articles {
-  background-color: #DDD;
-}*/
+/*-- HOMEPAGE -------*/
+.agenda_sidebar a {
+  text-decoration: none;
+  color: #000;
+}
+.agenda_sidebar h2 {
+  margin-bottom: 0;
+}
+.list-group-item {
+  border: none;
+  background-color: #EEE;
+  border-bottom: 4px solid #999;
+}
+  .agenda_sidebar p {
+    margin-bottom: 0;
+  }
+    .agenda-date p {
+      font-family: 'Oswald', sans-serif;
+      font-size: 2.4em;
+    }
+      .agenda-date span {
+        font-size: 0.5em;
+      }
+      .agenda-date span, .agenda-info small {
+        color: #666;
+      }
