@@ -37,28 +37,56 @@ padding-left: 25px;
 }
 
 /*-- HOMEPAGE -------*/
-.agenda_sidebar a {
+.agenda-sidebar a {
   text-decoration: none;
   color: #000;
 }
-.agenda_sidebar h2 {
+.agenda-sidebar h2 {
   margin-bottom: 0;
 }
 .list-group-item {
   border: none;
   background-color: #EEE;
-  border-bottom: 4px solid #999;
+  padding-top: 1.2em;
 }
-  .agenda_sidebar p {
-    margin-bottom: 0;
-  }
-    .agenda-date p {
-      font-family: 'Oswald', sans-serif;
-      font-size: 2.4em;
-    }
-      .agenda-date span {
-        font-size: 0.5em;
-      }
-      .agenda-date span, .agenda-info small {
-        color: #666;
-      }
+.agenda-sidebar p {
+  margin-bottom: 0;
+}
+.agenda-sidebar-date p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.4em;
+}
+.agenda-sidebar-date span {
+  font-size: 0.5em;
+}
+.agenda-sidebar-date span, .agenda-sidebar-info small {
+  color: #666;
+}
+.agenda-sidebar-info h4 {
+  border-bottom: 2px solid #CCC;
+  padding-bottom: 1em;
+}
+.agenda-sidebar-info h4.last-agenda {
+  border-bottom: 0;
+}
+.sidebar-agenda-cta {
+  background-color: #FFF;
+  border-bottom: 4px solid #FFF;
+}
+.sidebar-agenda-cta:hover {
+  border-bottom: 4px solid #000;
+}
+.newsletter-signup-form {
+  background-color: #EEE;
+}
+.newsletter-signup-form form {
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
+}
+.newsletter-signup-form .form-control {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #999;
+  border-radius: 0;
+  padding: 0;
+}
