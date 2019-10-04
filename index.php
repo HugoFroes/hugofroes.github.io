@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Oswald" rel="stylesheet">
     <link rel="stylesheet" href="scripts/base.css">
     <title>Hugo Froes</title>
-    <meta name="description" content="Personal website">
+    <meta name="description" content="Strategist, Coach and Speaker">
   </head>
   <body>
 		<!-- HEADER -->
