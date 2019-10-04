@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -10,77 +9,48 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Oswald" rel="stylesheet">
     <link rel="stylesheet" href="scripts/base.css">
     <title>Hugo Froes</title>
+    <meta name="description" content="Personal website">
   </head>
   <body>
 		<!-- HEADER -->
-		<header class="navbar navbar-expand-lg navbar-light flex-column flex-md-row bd-navbar">
-			<a class="navbar-brand mr-0 mr-md-2">Hugo Froes</a>
-			<ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
-				<li class="nav-item">
-					<a class="nav-link" href="/index.html">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Work</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Agenda</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Resources</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Talk to me</a>
-				</li>
-			</ul>
-		</header>
-		<!-- HERO SECTION -->
-    <section class="jumbotron bg-dark text-white jumbotron-fluid">
-      <div class="container">
-        <div class="row">
-          <h1 class="display-3">Solving problems with a <span>Human Centred Design</span> approach</h1>
-        </div>
-      </div>
-    </section>
+		<?php include '/header.php'?>
     <!-- ARTICLES -->
-    <section>
+    <section role="main">
       <div class="container">
         <div class="row gutter-10">
           <!-- MAIN CONTENT -->
           <div class="col-md-8">
             <h2 class="text-center text-uppercase font-weight-bold">Latest publications</h2>
-            <article>
+            <article role="article">
               <h3>Why we need to stop over-complicating UX</h3>
               <p><small class="text-muted">Oct 2018 ⋅ 6 min read</small></p>
               <p>Many have become so focused on the process and methodologies that they’ve forgotten the fundamentals of why we started focusing on the user and what we hope to achieve with that focus.</p>
               <button type="button" class="btn btn-dark" onclick="window.location.href='https://uxdesign.cc/why-we-need-to-stop-over-complicating-ux-df30dd80b36d'">Make UX simple</button>
             </article>
-            <article>
+            <article role="article">
               <h3>What has being part of the #WhatIsResearchOps community meant for me?</h3>
               <p><small class="text-muted">Oct 2018 ⋅ 6 min read</small></p>
               <p>Incredible discussions ensued, and a lot of the doubt was around how ResearchOps should be defined. I believe many of us working in fields that include research, design and ideation have suffered a bit because of lack of definition.</p>
               <button type="button" class="btn btn-dark" onclick="window.location.href='https://medium.com/researchops-community/what-has-being-part-of-the-whatisresearchops-community-meant-for-me-b3daf6873365'">What is ResearchOps?</button>
             </article>
-            <article>
+            <article role="article">
               <h3>Moving past the battle for having the greatest job title ever</h3>
               <p><small class="text-muted">Sep 2018 ⋅ 8 min read</small></p>
               <p>That’s right, like most of you out there, I have been on a constant quest to have the most incredible job title ever, ever since I decided I wanted to be a Designer over 25 years ago.</p>
               <button type="button" class="btn btn-dark" onclick="window.location.href='https://uxdesign.cc/moving-past-the-battle-for-the-greatest-job-title-ever-58a91eb60cde'">Stop chasing job titles</button>
             </article>
-            <article>
+            <article role="article">
               <h3>UX In The Age Of AI</h3>
               <p><small class="text-muted">Jan 2018 ⋅ 7 min read</small></p>
               <p>This article will explore the relationship I believe will develop between AI and UX in the coming years to create better and more valuable solutions.</p>
               <button type="button" class="btn btn-dark" onclick="window.location.href='https://medium.com/bythewayhi/ux-in-the-age-of-ai-d90cf801f943'">Augmenting UX</button>
             </article>
-            <article>
+            <article role="article">
               <h3>A special thank you for making teaching so rewarding</h3>
               <p><small class="text-muted">Dec 2017 ⋅ 8 min read</small></p>
               <button type="button" class="btn btn-dark" onclick="window.location.href='https://medium.com/@hugofroesUX/a-special-thank-you-for-making-teaching-so-rewarding-3a07958845d4'">Thank you</button>
             </article>
-            <article>
+            <article role="article">
               <h3>Designing For The User: Part 1 - Debunking The Myths</h3>
               <p><small class="text-muted">Jul 2017 ⋅ 8 min read</small></p>
               <p>I’ve often found myself having to convince clients or colleagues about the importance of designing for the end user. It can be frustrating.</p>
