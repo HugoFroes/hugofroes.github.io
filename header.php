@@ -3,7 +3,7 @@
   <nav role="navigation">
     <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
       <li class="nav-item">
-        <a class="nav-link" role="menuitem" href="/index.html">Home</a>
+        <a class="nav-link" role="menuitem" href="/index.php">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" role="menuitem" href="#">Work</a>
